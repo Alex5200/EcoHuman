@@ -1,5 +1,42 @@
-# EcoHuman
-Project eco human
-<a href="https://www.figma.com/file/GybyzzORld1iIqz5XvTaiE/%D1%8D%D0%BA%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F-%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0?type=design&node-id=71-795&mode=design&t=m2Vs5ijfMU3165nI-0">
-<img style="height: 1em" src="[https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/18df3d15-0497-4661-b2e1-bfeba3a21cd2.jpeg?ixlib=react-9.0.3&ch=Width%2CDPR&auto=format&w=4088](https://cdn-icons-png.flaticon.com/512/5968/5968705.png)https://cdn-icons-png.flaticon.com/512/5968/5968705.png">
-</a>
+# Эко сознание
+
+
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/>
+Ниже иконкой ссылка на фигму проекта 
+<br/>
+<img src="https://grizly.club/uploads/posts/2022-12/1671019034_grizly-club-p-figma-logotip-png-14.jpg" height="100"/>
+<br/>
+<br/>
+
+<h3>Расписал ваши задачки и примерные баллы</h3>
+
+ | 📚 | georgerubaylo@gmail.com    | sidorov.andrey2005@mail.ru    | cfifeg1@gmail.com   | cfifeg1@gmail.com |
+| :---:   | :---: | :---: | :---: |:---: |
+| Задачи | 1   | 2    | 3   | 4   |
+| Дата выполнения |    |    |    |    |
+| Баллы | 5   | 5   | 5   |5   |
+| Прошел код ревью |    |    |    |    |
+
+<h4 style="font-weight: bold;">Задача 1</h4>
+Верстка  фрейма "Волонтерство".
+<br/>
+<img src="./волонтерство.png" height="100"/>
+<br/>
+<br/>
+<h4 style="font-weight: bold;">Задача 2</h4>
+Верстка  фрейма "Здоровье".
+<br/>
+<img src="https://grizly.club/uploads/posts/2022-12/1671019034_grizly-club-p-figma-logotip-png-14.jpg" height="100"/>
+<br/>
+<br/>
+<h4 style="font-weight: bold;">Задача 3</h4>
+Верстка  фрейма "Подборка ресурсов".
+<br/>
+<img src="https://grizly.club/uploads/posts/2022-12/1671019034_grizly-club-p-figma-logotip-png-14.jpg" height="100"/>
+<br/>
+<br/>
+<h4 style="font-weight: bold;">Задача 4</h4>
+Верстка  фрейма "Факторы".
+<br/>
+<img src="https://grizly.club/uploads/posts/2022-12/1671019034_grizly-club-p-figma-logotip-png-14.jpg" height="100"/>
+<br/>
