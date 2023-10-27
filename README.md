@@ -19,28 +19,28 @@
 | Баллы | 5   | 5   | 5   |5   |
 | Прошел код ревью |    |    |    |    |
 
-<h4 style="font-weight: bold;">Задача 1</h4>
+<h3 style="font-weight: bold;">Задача 1</h3>
 Верстка  фрейма "Волонтерство".
 <br/>
-<img src="./волонтерство.png" height="250"/>
+<img src="./волонтерство.png" height="500"/>
 <br/>
 <br/>
-<h4 style="font-weight: bold;">Задача 2</h4>
+<h3 style="font-weight: bold;">Задача 2</h3>
 Верстка  фрейма "Здоровье".
 <br/>
-<img src="./здоровье.png" height="250"/>
+<img src="./здоровье.png" height="500"/>
 <br/>
 <br/>
-<h4 style="font-weight: bold;">Задача 3</h4>
+<h3 style="font-weight: bold;">Задача 3</h3>
 Верстка  фрейма "Подборка ресурсов".
 <br/>
-<img src="./подборка ресурсов.png" height="250"/>
+<img src="./подборка ресурсов.png" height="500"/>
 <br/>
 <br/>
-<h4 style="font-weight: bold;">Задача 4</h4>
+<h3 style="font-weight: bold;">Задача 4</h3>
 Верстка  фрейма "Факторы".
 <br/>
-<img src="факторы.png" height="250"/>
-<img src="факторы доп.png" height="250"/>
+<img src="факторы.png" height="500"/>
+<img src="факторы доп.png" height="500"/>
 
 <br/>
