@@ -20,23 +20,25 @@
 <h4 style="font-weight: bold;">Задача 1</h4>
 Верстка  фрейма "Волонтерство".
 <br/>
-<img src="./волонтерство.png" height="100"/>
+<img src="./волонтерство.png" height="250"/>
 <br/>
 <br/>
 <h4 style="font-weight: bold;">Задача 2</h4>
 Верстка  фрейма "Здоровье".
 <br/>
-<img src="https://grizly.club/uploads/posts/2022-12/1671019034_grizly-club-p-figma-logotip-png-14.jpg" height="100"/>
+<img src="./здоровье.png" height="250"/>
 <br/>
 <br/>
 <h4 style="font-weight: bold;">Задача 3</h4>
 Верстка  фрейма "Подборка ресурсов".
 <br/>
-<img src="https://grizly.club/uploads/posts/2022-12/1671019034_grizly-club-p-figma-logotip-png-14.jpg" height="100"/>
+<img src="./подборка ресурсов.png" height="250"/>
 <br/>
 <br/>
 <h4 style="font-weight: bold;">Задача 4</h4>
 Верстка  фрейма "Факторы".
 <br/>
-<img src="https://grizly.club/uploads/posts/2022-12/1671019034_grizly-club-p-figma-logotip-png-14.jpg" height="100"/>
+<img src="./факторы.png" height="250"/>
+<img src="./факторы доп.png" height="250"/>
+
 <br/>
