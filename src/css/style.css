@@ -450,6 +450,21 @@ table thead tr th{
         text-align: start !important;
         font-size: 0.6em;
     }
+    .resources-wrapper{
+        height:100%;
+        width:100%;
+    }
+    .resources-wrapper__list{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .item__logo{
+        width:30%;
+    }
+    
+   
 }
 
 @media(min-width: 931px) and (max-width: 1113px){
@@ -459,8 +474,8 @@ table thead tr th{
     .highlight p{
         text-align: start !important;
         font-size: 0.7em;
-
     }
+    
 }
 
 @media (min-width: 561px) and (max-width: 930px) {
@@ -493,6 +508,20 @@ table thead tr th{
         height: 60% !important;
         border-radius: 20px !important;
         padding: 1em;
+    }
+    .resources-wrapper{
+        height: 100%;
+        width:100%;
+    }
+    .resources-wrapper__list{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .item__logo{
+        width:30%;
+        
     }
 
     .primary-navigation{
@@ -759,6 +788,7 @@ h2{
         flex-direction: row;
         justify-content: space-around;
     }
+    
     
 }
 
