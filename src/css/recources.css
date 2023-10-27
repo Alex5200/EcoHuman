@@ -10,6 +10,9 @@
     color: #696969;
     font-size: 1em;
 }
+.resources-wrapper{
+    padding:0.7em;
+}
 .item__bottom{
     display: flex;
     justify-content: space-between;
