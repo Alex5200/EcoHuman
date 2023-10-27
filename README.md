@@ -12,7 +12,7 @@
 
 <h3>Расписал ваши задачки и примерные баллы</h3>
 
- | 📚 | georgerubaylo@gmail.com    | sidorov.andrey2005@mail.ru    | cfifeg1@gmail.com   | cfifeg1@gmail.com |
+ | 📚 | georgerubaylo@gmail.com    | sidorov.andrey2005@mail.ru    | cfifeg1@gmail.com   | mixik2005@mail.ru |
 | :---:   | :---: | :---: | :---: |:---: |
 | Задачи | 1   | 2    | 3   | 4   |
 | Дата выполнения |    |    |    |    |
