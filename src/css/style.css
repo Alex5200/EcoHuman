@@ -125,6 +125,7 @@ body{
     padding: 1em ;
 } */
 .mobile-nav-toggle{
+    color: black;    
     display: none;
 }
 
