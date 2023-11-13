@@ -458,10 +458,18 @@ table thead tr th{
         display:flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: left;
     }
     .item__logo{
         width:30%;
+    }
+    .list__item{
+        width:17em;
+    }
+    .res__title-wrapper{
+        line-height: 70%;
+        padding:0;
+        font-size: 55px;
     }
     
    
@@ -475,6 +483,7 @@ table thead tr th{
         text-align: start !important;
         font-size: 0.7em;
     }
+    
     
 }
 
@@ -517,11 +526,15 @@ table thead tr th{
         display:flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: left;
+        gap:2em;
     }
     .item__logo{
         width:30%;
         
+    }
+    .list__item{
+        width:24em;
     }
 
     .primary-navigation{
