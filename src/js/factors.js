@@ -40,3 +40,11 @@ window.addEventListener('click', function (event) {
     closetitle()
   }
 })
+
+lungs.addEventListener('click', function () {
+  // Перематываем экран пользователя к модальному окну
+  modal.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start',
+  })
+})
