@@ -346,7 +346,7 @@ table thead tr th{
 
     .mobile-nav-toggle[aria-expanded="true"]{
         background-image: url(../img/icon-close.svg);
-        position: fixed;
+        position: absolute;
     }
     
     .services__section img{

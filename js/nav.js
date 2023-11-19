@@ -11,8 +11,3 @@ navToggle.addEventListener("click", () => {
         navToggle.setAttribute('aria-expanded', false);
     }
 }); 
-
-const phoneNumber = document.querySelector(".mobile-phone");
-phoneNumber.addEventListener("click", () => {
-    window.open(`tel:${89017066270}`, '_self');
-})
