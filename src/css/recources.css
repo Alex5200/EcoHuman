@@ -1,7 +1,14 @@
 .res-title{
-    margin:0 auto;
-    width:85%;
     text-align: left !important;
+}
+
+.res-title1{
+    width:82%;
+    margin: 0 auto;
+    display:block;
+}
+.wrapper1{
+    padding: 0.7em;
 }
 .resources-wrapper__list p{
     font-family: 'Gilroy-Medium';

@@ -284,11 +284,17 @@ table thead tr th{
     padding: 1em;
 }
 @media(max-width: 35em){
+    .res-title1{
+        margin:0;
+    }
     .logo-red{
         z-index: -1;
         position: absolute;
         filter: blur(5px);
         width: 30em;
+    }
+    .logo-red--blured{
+        width: 15em;
     }
     .phone-link-container-forMain1{
         visibility: unset;
@@ -448,7 +454,8 @@ table thead tr th{
 
     .highlight p{
         text-align: start !important;
-        font-size: 0.6em;
+        font-size: 0.8em;
+        line-height: 1em;
     }
     .resources-wrapper{
         height:100%;
