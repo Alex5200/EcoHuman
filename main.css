@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&display=swap');
+
+@font-face {
+    font-family: 'Cygre-Black';
+    src: url('../fonts/Cygre-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cygre-ExtraBold';
+    src: url('../fonts/Cygre-ExtraBoldIt.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('../fonts/Gilroy-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+a{
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+li{
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Gilroy-Medium';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: #696969;
+}
+
+.navigation__list{
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation__list_item{
+  margin-top: 22px;
+}
+
+.wrapper_logo{
+  margin-right: 300px;
+}
+
+
+.wrapper_health{
+  display: flex;
+}
+
+.wrapper__stars-text{
+  font-family: 'Cygre-ExtraBold';
+  font-size: 55px;
+  font-weight: 900;
+  color: #4A860B;
+  margin-left: 488px;
+}
+
+.span__first{
+  margin-left: 100px;
+}
+
+.wrapper__stars{
+  background-image: url(image\ 49.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position: 708px;
+}
+
+.star{
+  margin-left: 300px;
+}
+
+.big__star{
+  margin-left: 1110px;
+}
+
+.first__text{
+  font-family: 'Cygre-ExtraBold';
+  font-weight: 900;
+  font-size: 35px;
+  color: #B4D21C;
+}
+
+.span_health{
+  font-family: 'Gilroy-Medium';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: #696969;
+  text-align: justify;
+}
+
+.wrapper__mental{
+  display: flex;
+}
+
+.mental__text{
+  font-family: 'Cygre-ExtraBold';
+  font-weight: 900;
+  font-size: 35px;
+  color: #B4D21C;
+}
+
+.wrapper__mental{
+  display: flex;
+}
+
+.span__mental{
+  font-family: 'Gilroy-Medium';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: #696969;
+  text-align: justify;
+}
+
+.wrapper__activity{
+  display: flex;
+}
+
+.activity__text{
+  font-family: 'Cygre-ExtraBold';
+  font-weight: 900;
+  font-size: 35px;
+  color: #B4D21C;
+}
+
+.span__activity{
+  font-family: 'Gilroy-Medium';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: #696969;
+  text-align: justify;
+}
+
+.wrapper__food{
+  display: flex;
+}
+
+.food__text{
+  font-family: 'Cygre-ExtraBold';
+  font-weight: 900;
+  font-size: 35px;
+  color: #B4D21C;
+}
+
+.span__food{
+  font-family: 'Gilroy-Medium';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: #696969;
+  text-align: justify;
+}
+
+
+
+
+
+
