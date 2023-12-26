@@ -25,8 +25,27 @@
     box-sizing: border-box;
     font-family: "Manrope", sans-serif;
     /* outline: 1px solid red; */
-    --text-color: #72AB46;
+    --text-color: #B4D21C;
     font-weight: 400;
+}
+
+.mainTextStrong{
+    color: #4A860B;
+    font-family: Gilroy-Medium;
+    font-size: 26.562px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.93px;
+}
+.mainText{
+    color: #B4D21C;
+    font-family: Cygre-ExtraBold;
+    font-size: 26.562px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.93px;
 }
 .logo-red{
     z-index: -1;
@@ -46,7 +65,6 @@ body{
     border: 1px solid #EDCFC5;
     background: #ffffff;
     padding: 10px;
-    border-radius: 6px;
     transition: background 1s;
     width: calc(100%/2);
     text-align: center;
@@ -140,10 +158,6 @@ body{
     transition: background 1s;
 }
 
-.primary-navigation a:hover{
-    background: #EEBDAD;
-    
-}
 
 .socials li a{
     color: #fff;
@@ -196,7 +210,7 @@ th, td{
 }
 
 .service__list-wrapper ul li h2{
-    color:#72AB46;
+    color:#B4D21C;
 }
 
 .services__section img{
@@ -560,7 +574,7 @@ table thead tr th{
 
     h1{
         color: var(--text-color);
-        font-family: 'Manrope', sans-serif;
+        font-family: 'Cygre-Black', sans-serif;
         font-size: 48px;
         font-style: normal;
         font-weight: 900;
@@ -637,7 +651,7 @@ table thead tr th{
 }
 
 h2{
-    color: #EDCFC5;
+    color: #B4D21C;
     font-size: 2em;
     font-family:'Cygre-ExtraBold' ;
 }
@@ -668,7 +682,7 @@ h2{
 
     h1{
         color: var(--text-color);
-        font-family: 'Manrope', sans-serif;
+        font-family: 'Cygre-Black', sans-serif;
         font-size: 48px;
         font-style: normal;
         font-weight: 900;
@@ -727,7 +741,7 @@ h2{
 
     .service__container h1{
         color: var(--text-color);
-        font-family: 'Manrope', sans-serif;
+        font-family: 'Cygre-Black', sans-serif;
         font-size: 74px;
         font-style: normal;
         font-weight: 900;
