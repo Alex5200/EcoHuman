@@ -1,5 +1,27 @@
 body {
   margin: 0 5% 5% 5%;
+  font-family: Gilroy;
+}
+.title {
+  color: #4a860b;
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+  font-family: Cyrge Black;
+}
+
+.container__title2,
+.title3,
+.title4 {
+  color: #b4d21c;
+  font-family: Cyrge Black;
+}
+
+.container__text1,
+.container__text2,
+.text3,
+.text4 {
+  font-family: Gilroy;
 }
 .clover {
   position: absolute;
@@ -84,6 +106,7 @@ body {
 }
 .color-title {
   color: #4a860b;
+  font-family: Gilroy;
 }
 .title3 {
   color: #b4d21c;
