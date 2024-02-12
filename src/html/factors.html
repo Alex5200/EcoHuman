@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Эко сознание</title>
-    <link rel="stylesheet" href="../css/factors.css">
-    <link rel="stylesheet" href="../css/style.css ">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon/logo.png">
+    <title>ЭкоСознание</title>
+    <link rel="stylesheet" href="/css/factors.css">
+    <link rel="stylesheet" href="/css/style.css ">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <script src="./js/nav.js" defer></script>
+    <script src="/js/nav.js" defer></script>
+    <script src="/js/slider.js" defer></script>
     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 
 </head>
@@ -19,37 +21,46 @@
     <div class="clover3"></div>
     <header class="primary-header flex">
         <div class="logoImg-container">
-            <a href="#" class="logo-link">
-                <img src="../icon/logo.png" loading="lazy" alt="logoImg" class="logoImg">
-            </a>
+            <div>
+                <img src="/icon/logo.png" loading="lazy" alt="logoImg" class="logoImg">
+            </div>
+            <div class="title">
+                <a style="color: #4A860B; font-size: 26px; font-family: Gilroy-Medium;">ЭКО</a>
+                <a style="color: #B4D21C; font-size: 26px; font-family: Cygre-Black;">СОЗНАНИЕ</a>
+            </div>
         </div>
         <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span
                 class="sr-only"></span></button>
 
-                <nav class="navigation">
-                    <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
-                        <li class="navigation__list-item active">
-                            <a style="color: #696969;" href="./index.html">
-                                осознанность
-                            </a>
-                        </li>
-                        <li class="navigation__list-item">
-                            <a style="color: #696969;" href="./factors.html">
-                              факторы
-                            </a>
-                        </li>
-                        <li class="navigation__list-item">
-                            <a style="color: #696969;" href="./resources.html">
-                                ресуры
-                            </a>
-                        </li>
-                        <li class="navigation__list-item">
-                            <a style="color: #696969;"  style="color: #72AB46;">
-                              чек лист привычек
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+        <nav class="navigation">
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                <li class="navigation__list-item active">
+                    <a  href="./index.html">
+                        осознанность
+                    </a>
+                </li>
+                <li class="navigation__list-item">
+                    <a  href="#cure">
+                        тесты
+                    </a>
+                </li>
+                <li class="navigation__list-item">
+                    <a  href="./resources.html">
+                        ресурсы
+                    </a>
+                </li>
+                <li class="navigation__list-item">
+                    <a  >
+                        чек лист привычек
+                    </a>
+                </li>
+                <li class="navigation__list-item">
+                    <a  href="./factors.html" >
+                      факторы
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <div class="container-factors">
         <main>
@@ -300,6 +311,6 @@
         </main>
     </div>
 </body>
-<script src="./js/factors.js"></script>
+<script src="/js/factors.js"></script>
 
 </html>

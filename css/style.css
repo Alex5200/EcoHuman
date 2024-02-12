@@ -25,7 +25,9 @@
     box-sizing: border-box;
     font-family: "Manrope", sans-serif;
     /* outline: 1px solid red; */
-    --text-color: #72AB46;
+    --text-color: #696969;
+    --text-color-hover: #B4D21C;;
+
     font-weight: 400;
 }
 .logo-red{
@@ -41,10 +43,12 @@ body{
     background-color: #FFFEF5;
     z-index: 1000;
 }
-
-.call-button{
-    border: 1px solid #EDCFC5;
-    background: #ffffff;
+.title{
+    margin-top: 25px;
+}
+.btn-intersting{
+   border: 1px solid #B4D21C;
+    background: #B4D21C;
     padding: 10px;
     border-radius: 6px;
     transition: background 1s;
@@ -53,46 +57,9 @@ body{
     float: right;
     margin-right: 2em;
     margin-bottom: 1em;
-    
+                
+                
 }
-
-.call-button a{
-    color: var(--text-color);
-    font-size: 20px;
-}
-
-.call-button:hover{
-    background: #EEBDAD;
-}
-
-.call-button a:visited{
-    color: var(--text-color);
-}
-
-.phone-link-container{
-    position: fixed;
-    margin-left: 12%;
-    border: 1px solid #EDCFC5;
-    background: #ffffff;
-    padding: 10px;
-    border-radius: 6px;
-    transition: background 1s;
-    z-index: 1000;
-}
-.audio-text{
-    float: right !important;
-    padding: 0 1em 1em 1em !important;
-}
-.phone-link-container:hover{
-    background: #EEBDAD;
-}
-
-.phone-link-container a{
-    font-size: 25px;
-    padding: 2rem;
-    margin: 1rem;
-}
-
 .highlight p{
     padding-bottom: .1%;
     text-align: center;
@@ -110,10 +77,13 @@ body{
     display: flex;
     gap: var(--gap, 1rem);
 }
-
+.logoImg-container{
+    display: flex;
+}
 .logoImg{
     margin: 1rem;
-    margin-left: 2rem
+    margin-left: 2rem;
+    
 }
 
 .primary-header{
@@ -129,6 +99,7 @@ body{
 }
 
 .primary-navigation a{
+    color: #696969;
     text-decoration: none;
     letter-spacing: 0.5px;
     font-family: "Gilroy-Medium";
@@ -137,11 +108,12 @@ body{
     padding: 10px;
     border-radius: 6px;
     transition: background 1s;
+    
 }
 
 .primary-navigation a:hover{
-    background: #EEBDAD;
-    
+    color: #B4D21C;
+    margin-right: 10px;
 }
 
 .socials li a{
@@ -290,20 +262,7 @@ table thead tr th{
         filter: blur(5px);
         width: 30em;
     }
-    .phone-link-container-forMain1{
-        visibility: unset;
-        width: calc(100%/2);
-        margin: 3em;
-        float: right;
-        text-align: center;
-
-    }
-    .phone-link-container-forMain{
-        margin-bottom: 0 !important;
-    }
-    .phone-link-container{
-        visibility: hidden;
-    }
+   
     .primary-navigation{
         --gap: 2em;
         z-index: 1000;
@@ -316,18 +275,7 @@ table thead tr th{
         margin-top: 0;
         background: hsl(97 43% 73%/ 0.4);
     }
-    .mobile-phone{
-        display: block;
-        position: absolute;
-        background: url(../img/phone-1.svg);
-        width: 3rem;
-        background-repeat: no-repeat;
-        border: 0;
-        aspect-ratio: 1;
-        top: 2em;
-        right: 6rem;
-        z-index: 1000;
-    }
+   
     /* .mobile-phone[data-visible = false]{
         display: none;
 
@@ -344,43 +292,12 @@ table thead tr th{
         }
     }
 
-    .mobile-nav-toggle[aria-expanded="true"]{
-        background-image: url(../img/icon-close.svg);
-        position: absolute;
-    }
     
     .services__section img{
         border-radius: 3em;
     }
 
-    .mobile-nav-toggle{
-        display: block;
-        z-index: 9999;
-        position: absolute;
-        background: url(../img/icon-hamburger.svg);
-        width: 3rem; 
-        background-repeat: no-repeat;
-        border: 0;
-        aspect-ratio: 1;
-        top: 2rem;
-        right: 1rem;        
-    }
-
-    /* .table-container{
-        background: #A1A09E;
-        
-        display: flex;
-        border-radius: 10px;
-        margin: 1em;
-        padding: 1em;
-    }
-
-    .table-container table{
-        padding: 1em;
-        
-        
-    } */
-
+   
     table{
         width: 100%;
         margin-right: 2em;
@@ -463,7 +380,7 @@ table thead tr th{
     }
 }
 
-@media (min-width: 561px) and (max-width: 930px) {
+@media (min-width: 370px) and (max-width: 930px) {
     .phone-link-container{
         position: fixed;
         margin-left: 12%;
@@ -636,7 +553,7 @@ table thead tr th{
 }
 
 h2{
-    color: #EDCFC5;
+    color: var(--text-color-hover);
     font-size: 2em;
     font-family:'Cygre-ExtraBold' ;
 }
