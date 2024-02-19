@@ -1,0 +1,104 @@
+.main-title{
+    font-family: Cygre-Black;
+    text-transform: uppercase;
+    color: #4A860B;   
+    text-align: center;
+    margin-top: 5em;
+    font-size: 3.438em;
+}
+
+.second-text{
+    color: #B4D21C;   
+    font-family: Cygre-ExtraBold;
+}
+.div-articles{
+    margin-top: 20%;
+}
+.eco{
+    text-transform: uppercase;
+    font-family: Cygre-Black;
+    text-align: right;
+    color: #4A860B;
+    font-size: 3.438em;
+    margin-right: 20px;
+    padding: 0;
+}
+.service{
+    text-transform: uppercase;
+    font-family: Cygre-Black;
+    text-align: left;
+    color: #4A860B;
+    font-size: 3.438em;
+    margin-left: 40px;
+}
+.articles{
+    text-transform: uppercase;
+    font-family: Cygre-Black;
+    text-align: right;
+    color: #4A860B;
+    font-size: 3.438em;
+    margin-right: 40px;
+}
+.card-articles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card-eco{
+    display: flex;
+    flex-direction: row;
+  
+}
+.card-articles-style{
+    margin-left: 1em;
+    width: 440px;
+    height: 464px;
+    margin-bottom: 2em;
+
+}
+.text{
+    font-family: Gilroy-Medium;
+    font-size: 1.25em;
+}
+.text-eco{
+    font-family: Gilroy-Medium;
+    font-size: 1.25em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.h1-article{
+    color: #B4D21C;
+    font-family: Cygre-ExtraBold;
+    font-size: 1.875em;
+    padding: 0;
+}
+
+@media(min-width: 2000px){
+    img{
+        width: 40.75em;
+    }
+    .div-articles{
+        margin-top: 10em;
+    }   
+    .div-service{
+        margin-top: 10em;
+    } 
+    .service{
+        margin-left: 6em;
+    }
+    .articles{
+        margin-right: 2em;
+    }
+    .eco{
+        margin-right: 50px;
+    }
+    .div-eco{
+        margin-top: 10em;
+    }
+    .card-eco{
+        margin-bottom: 10em;
+        margin-left: 8em;
+    }
+
+}
