@@ -197,7 +197,10 @@ table thead tr th{
     font-weight: 700;
     font-size: 28px;
 } 
-
+.Sliders{
+    visibility: hidden;
+    position: absolute;
+}
 .card{
     border-radius: 25px;
     background: #EDCFC5;
@@ -373,6 +376,7 @@ table thead tr th{
     .phone-link-container{
         visibility: hidden;
     }
+  
     .highlight p{
         text-align: start !important;
         font-size: 0.7em;
@@ -384,6 +388,14 @@ table thead tr th{
     .phone-link-container{
         position: fixed;
         margin-left: 12%;
+    }
+    .Sliders{
+        visibility: visible;
+        position: relative;
+    }
+    .card-articles{
+        visibility: hidden;
+        position:absolute;
     }
     .phone-link-container a{
         font-size: 25px;
