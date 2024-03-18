@@ -89,6 +89,10 @@ body{
 .primary-header{
     align-items: center;
     justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #fffef5;
 }
 
 /* .container{
@@ -97,7 +101,10 @@ body{
 .mobile-nav-toggle{
     display: none;
 }
+.navigation{
+    margin-top: 2em;
 
+}
 .primary-navigation a{
     color: #696969;
     text-decoration: none;
